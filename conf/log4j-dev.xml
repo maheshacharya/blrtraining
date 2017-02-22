@@ -197,9 +197,8 @@
     <level value="info"/>
     <appender-ref ref="messages"/>
   </logger>
-
   <root>
-    <level value="warn"/>
+    <level value="warm"/>
     <appender-ref ref="site"/>
     <appender-ref ref="cms"/>
     <appender-ref ref="console"/>
