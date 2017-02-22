@@ -11,14 +11,18 @@
 
     <#-- TODO replace the static title, introduction and content with dynamic markers -->
 
-      <div class="col-md-9 col-sm-9">
-        <h2>${document.title}</h2>
-          <@hst.html hippobean=document.content/>
 
-      </div>
+        <h2>${document.title}</h2>
+
+          <@hst.html hippohtml=document.content/>
+
+
     <#elseif editMode>
       <img src="<@hst.link path="/images/essentials/catalog-component-icons/simple-content.png" />"> Click to edit Simple Content
     </#if>
     </div>
   </div>
+
+
+
 </div>

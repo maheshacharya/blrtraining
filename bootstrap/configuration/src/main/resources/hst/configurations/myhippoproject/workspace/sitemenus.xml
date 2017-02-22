@@ -7,7 +7,7 @@
       <sv:value>hst:sitemenu</sv:value>
     </sv:property>
     <sv:property sv:name="hst:lastmodified" sv:type="Date">
-      <sv:value>2017-02-21T16:40:08.529+05:30</sv:value>
+      <sv:value>2017-02-22T17:20:30.527+05:30</sv:value>
     </sv:property>
     <sv:node sv:name="home">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -42,6 +42,39 @@
       </sv:property>
       <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
         <sv:value>content</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="about us">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>about</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:repobased" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Google">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:externallink" sv:type="String">
+        <sv:value>www.google.com</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:repobased" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Campaign Page">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>campaign-page</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:repobased" sv:type="Boolean">
+        <sv:value>false</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>

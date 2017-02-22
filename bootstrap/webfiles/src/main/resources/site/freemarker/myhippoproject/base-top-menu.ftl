@@ -11,10 +11,18 @@
     <ul class="navigation" id="main-navigation">
         <#list menu.siteMenuItems as item>
             <#if  item.selected || item.expanded>
+
               <li><a class="activelink" href="<@hst.link link=item.hstLink/>"><span class="label-nav">${item.name?html}</span></a>
               </li>
             <#else>
+
+            <#if item.externalLink?? && item.externalLink?has_content>
+              <li><a target="_blank" href="http://${item.externalLink}"><span class="label-nav">${item.name?html}</span></a></li>
+
+            <#else>
+
               <li><a href="<@hst.link link=item.hstLink/>"><span class="label-nav">${item.name?html}</span></a></li>
+            </#if>
             </#if>
         </#list>
         <#if editMode>

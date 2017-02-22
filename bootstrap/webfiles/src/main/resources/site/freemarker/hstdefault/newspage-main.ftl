@@ -69,5 +69,13 @@
       </div>
     </div>
   </div>
+<@hst.headContribution>
+
+        <link rel="canonical"  href="<@hst.link hippobean=document canonical=true fullyQualified=true/>"/>
+</@hst.headContribution>
+
+
 </#if>
+
+
 
