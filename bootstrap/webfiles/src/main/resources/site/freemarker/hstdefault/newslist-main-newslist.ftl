@@ -33,7 +33,9 @@
                     <a href="${link}">${item.title}</a>
 
                   </h2>
+                    <@hst.link hippobean=item.image.featured var="image"/>
 
+                  <img src="${image}"/>
                 <#-- TODO 4: Show the introduction of the current item. -->
                   <div class="blog-post-body">
                   ${item.introduction}
@@ -43,7 +45,7 @@
                   <#-- TODO 5: remove the fixed date and use item.date.time to insert it dynamically.
                              You may want to use the <@fmt.formatDate> tag for formatting. -->
                     <div class="blog-post-details-item blog-post-details-item-left icon-calendar">
-                      <@fmt.formatDate value=item.date.time type="both" dateStyle="medium" timeStyle="short"/>
+                        <@fmt.formatDate value=item.date.time type="both" dateStyle="medium" timeStyle="short"/>
                     </div>
 
                     <div class="blog-post-details-item blog-post-details-item-right">

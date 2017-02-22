@@ -4,80 +4,96 @@
       "new-banner-folder": "new banner folder",
       "new-banner-document": "new banner document",
       "new-content-folder": "new content folder",
+      "new-myhippoproject-gogreenimageset-image": "New Image",
       "new-content-document": "new content document",
       "new-news-document": "new news item",
       "new-resource-bundle": "new resource bundle",
       "new-news-folder": "new news item folder",
+      "new-myhippoproject-gogreenimageset-folder": "new folder",
       "new-untranslated-folder": "new untranslated folder"
     },
     "nl":     {
       "new-banner-folder": "nieuwe banner map",
       "new-banner-document": "nieuwe banner",
       "new-content-folder": "nieuwe contentmap",
+      "new-myhippoproject-gogreenimageset-image": "Nieuwe Afbeelding",
       "new-news-document": "nieuw nieuwsbericht",
       "new-content-document": "nieuw content document",
       "new-resource-bundle": "nieuwe resource bundle",
       "new-news-folder": "nieuwe nieuwsmap",
+      "new-myhippoproject-gogreenimageset-folder": "nieuwe map",
       "new-untranslated-folder": "nieuwe onvertaalde map"
     },
     "de":     {
       "new-banner-folder": "Neuer Banner-Ordner",
       "new-banner-document": "Neues Banner",
       "new-content-folder": "Neuer Content-Ordner",
+      "new-myhippoproject-gogreenimageset-image": "Neues Bild",
       "new-news-document": "Neue News",
       "new-content-document": "Neues Content-Document",
       "new-resource-bundle": "Neues Resource-Bundle",
       "new-news-folder": "Neuer News-Ordner",
+      "new-myhippoproject-gogreenimageset-folder": "Neuer Ordner",
       "new-untranslated-folder": "Neuer nicht übersetzter Ordner"
+    },
+    "es":     {
+      "new-myhippoproject-gogreenimageset-image": "Nueva imagen",
+      "new-myhippoproject-gogreenimageset-folder": "nueva carpeta"
     },
     "fr":     {
       "new-banner-folder": "nouveau dossier bannière",
       "new-banner-document": "nouvelle bannière",
       "new-content-folder": "nouveau dossier contenu",
-      "new-content-document": "nouveau document contenu",
+      "new-myhippoproject-gogreenimageset-image": "Nouvelle image",
       "new-news-document": "nouveau message d'info",
+      "new-content-document": "nouveau document contenu",
       "new-resource-bundle": "nouveau resource bundle",
       "new-news-folder": "nouveau dossier messages d'info",
+      "new-myhippoproject-gogreenimageset-folder": "un nouveau dossier",
       "new-untranslated-folder": "nouveau dossier non traduit"
+    },
+    "zh":     {
+      "new-myhippoproject-gogreenimageset-image": "新图片",
+      "new-myhippoproject-gogreenimageset-folder": "新文件夹"
     }
   },
   "hippo:types":   {
     "myhippoproject:bannerdocument":     {
       "en":       {
-        "myhippoproject:content": "Content",
-        "myhippoproject:title": "Title",
         "jcr:name": "Banner",
-        "myhippoproject:link": "Link",
-        "myhippoproject:image": "Image"
+        "myhippoproject:image": "Image",
+        "myhippoproject:title": "Title",
+        "myhippoproject:content": "Content",
+        "myhippoproject:link": "Link"
       },
       "nl":       {
-        "myhippoproject:content": "Inhoud",
-        "myhippoproject:title": "Titel",
         "jcr:name": "Banner",
-        "myhippoproject:link": "Link",
-        "myhippoproject:image": "Afbeelding"
+        "myhippoproject:image": "Afbeelding",
+        "myhippoproject:title": "Titel",
+        "myhippoproject:content": "Inhoud",
+        "myhippoproject:link": "Link"
       },
       "fr":       {
-        "myhippoproject:content": "Contenu",
-        "myhippoproject:title": "Titre",
         "jcr:name": "Bannière",
-        "myhippoproject:link": "Lien",
-        "myhippoproject:image": "Image"
+        "myhippoproject:image": "Image",
+        "myhippoproject:title": "Titre",
+        "myhippoproject:content": "Contenu",
+        "myhippoproject:link": "Lien"
       },
       "de":       {
-        "myhippoproject:content": "Inhalt",
-        "myhippoproject:title": "Titel",
         "jcr:name": "Banner",
-        "myhippoproject:link": "Link",
-        "myhippoproject:image": "Abbildung"
+        "myhippoproject:image": "Abbildung",
+        "myhippoproject:title": "Titel",
+        "myhippoproject:content": "Inhalt",
+        "myhippoproject:link": "Link"
       }
     },
     "myhippoproject:newsdocument":     {
       "en":       {
         "myhippoproject:source": "Source",
         "jcr:name": "News Item",
-        "myhippoproject:author": "Author",
         "myhippoproject:location": "Location",
+        "myhippoproject:author": "Author",
         "myhippoproject:image": "Image",
         "myhippoproject:content": "Content",
         "myhippoproject:title": "Title",
@@ -87,19 +103,19 @@
       "nl":       {
         "myhippoproject:source": "Bron",
         "jcr:name": "Nieuwsbericht",
-        "myhippoproject:author": "Auteur",
         "myhippoproject:location": "Locatie",
+        "myhippoproject:author": "Auteur",
         "myhippoproject:image": "Afbeelding",
-        "myhippoproject:content": "Inhoud",
         "myhippoproject:title": "Titel",
+        "myhippoproject:content": "Inhoud",
         "myhippoproject:date": "Datum",
         "myhippoproject:introduction": "Introductie"
       },
       "de":       {
         "myhippoproject:source": "Quelle",
         "jcr:name": "News",
-        "myhippoproject:author": "Verfasser",
         "myhippoproject:location": "Standort",
+        "myhippoproject:author": "Verfasser",
         "myhippoproject:image": "Abbildung",
         "myhippoproject:content": "Inhalt",
         "myhippoproject:title": "Titel",
@@ -120,33 +136,34 @@
     },
     "myhippoproject:contentdocument":     {
       "en":       {
+        "jcr:name": "Simple Document",
         "myhippoproject:content": "Content",
         "myhippoproject:title": "Title",
-        "jcr:name": "Simple Document",
         "myhippoproject:publicationdate": "Publication date",
         "myhippoproject:introduction": "Introduction"
       },
       "nl":       {
+        "jcr:name": "Eenvoudig Document",
         "myhippoproject:content": "Inhoud",
         "myhippoproject:title": "Titel",
-        "jcr:name": "Eenvoudig Document",
         "myhippoproject:publicationdate": "Publicatiedatum",
         "myhippoproject:introduction": "Introductie"
       },
       "fr":       {
+        "jcr:name": "Document simple",
         "myhippoproject:content": "Contenu",
         "myhippoproject:title": "Titre",
-        "jcr:name": "Document simple",
         "myhippoproject:publicationdate": "Date de publication",
         "myhippoproject:introduction": "Introduction"
       },
       "de":       {
+        "jcr:name": "Einfaches Dokument",
         "myhippoproject:content": "Inhalt",
         "myhippoproject:title": "Titel",
-        "jcr:name": "Einfaches Dokument",
         "myhippoproject:publicationdate": "Publikationsdatum",
         "myhippoproject:introduction": "Einführung"
       }
-    }
+    },
+    "myhippoproject:gogreenimageset": {}
   }
 }
